@@ -10,7 +10,7 @@ class Guardia{
 		int edad;
 		string tipo;
 		int ataque;
-		int ataque;
+		int defensa;
 	public:
 		void setNombre(string);
 		string getNombre();
@@ -19,5 +19,9 @@ class Guardia{
 		void setTipo(String);
 		string getTipo();
 		void setAtaque(int);
-		int getAtaque();		
+		int getAtaque();
+		void setAtaque(int);
+		int getAtaque();
+		
 };
+#endif
