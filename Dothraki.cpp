@@ -1,4 +1,5 @@
 #include "Dothraki.h"
+using namespace std;
 
 void Dothraki::setNombre (string x){
 	nombre=x;
