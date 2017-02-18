@@ -122,7 +122,70 @@ int main(){
 					}//case 1
 
 					case 2:{
-							
+							int opc4;
+							cout<<"1)- Lannister\n"<<
+									"2)- Stark\n"<<
+									"3)- Targaryen\n"<<
+									"Ingrese Opcion: ";
+							cin>>opc4;
+							switch (opc4){
+								case 1:{
+										if(lan != true){
+											string nombre,emblema,lema;
+											int dinero, fuerza,integra;
+											cout<<"Ingrese Nombre: ";
+											cin>>nombre;
+											cout<<"Ingrese Emblema: ";
+											cin>>emblema;
+											cout<<"Ingrese lema: ";
+											cin>>lema;
+											cout<<"Ingrese dinero: ";
+											cin>>dinero;
+											cout<<"Ingrese Fuerza: ";
+											cin>>fuerza;	
+											cout<<"Ingrese Intengrantes: ";
+											cin>>integra;
+											ln.setNombre(nombre);
+											ln.setEmblema(emblema);
+											ln.setLema(lema);
+											ln.setDinero(dinero);
+											ln.setFuerza(fuerza);
+											ln.setIntegrantes(integra);
+											lan=true;
+										}else{
+											cout<<"Ya esta creado la casa Lannister";
+										}
+									break;
+								}
+							case 2:{	
+									if(stark!=true){
+										string jefe,emblema,lema,guerrero;
+										int lobos, integra;
+										cin>>jefe;
+										cin>>emblema;
+										cin>>lema;		
+										cin>>lobos;
+										cin>>integra;
+										cin>>guerrero;
+										st.setBoss(jefe);
+										st.setEmblema(emblema);
+										st.setLema(lema);
+										st.setLobos(lobos);
+										st.setGuerrero(guerrero);
+										st.setIntegrantes(integra);
+										stark=true;
+					
+									}else{
+										cout<<"Ya esta creada la casa Stark";
+									}
+
+								break;
+							}
+							case 3:{
+
+								break;
+							}
+							}							
 						break;
 					}//case 2
 	
