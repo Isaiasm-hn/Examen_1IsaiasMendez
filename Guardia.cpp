@@ -17,19 +17,12 @@ int Guardia::getEdad(){
 	return edad;
 }
 
-void Guardia::setEdad(int x){
-	edad=x;
-}
-
-int Guardia::getEdad(){
-	return edad;
-}
 
 void Guardia::setTipo(string x){
 	tipo=x;
 }
 
-string Guardia::getTipo(string x){
+string Guardia::getTipo(){
 	return tipo;
 }
 

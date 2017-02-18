@@ -16,12 +16,12 @@ class Guardia{
 		string getNombre();
 		void setEdad(int);
 		int getEdad();
-		void setTipo(String);
+		void setTipo(string);
 		string getTipo();
 		void setAtaque(int);
 		int getAtaque();
-		void setAtaque(int);
-		int getAtaque();
+		void setDefensa(int);
+		int getDefensa();
 		
 };
 #endif

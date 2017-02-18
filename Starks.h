@@ -1,22 +1,23 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
-
+#include "f_nobles.h"
+using namespace std;
+using std::vector;
 #ifndef STARK_H
 #define STARK_H
 
-class Stark{
+class Starks{
 	private:
 		string boss;
 		int lobos;
 		string emblema;
 		string lema;
-		vector* <f_nobles*> ejercito;
-		string guerreo;
+		vector <f_nobles*> ejercito;
+		string guerrero;
 		int integrantes;
 	public:
-		Stark(string, int, string, string, string,int);
+		Starks(string, int, string, string, string,int);
 		
 		void setBoss(string);
 		string getBoss();
@@ -36,7 +37,7 @@ class Stark{
 		void setIntegrantes(int);
 		int getIntegrantes();
 			
-		void setEjercito(f_nobles);
-		vector* getEjercito();
+		void setEjercito(f_nobles*);
+	
 };
 #endif

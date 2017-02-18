@@ -1,9 +1,9 @@
-#iinclude <iostream>
+#include <iostream>
 #include <string>
 
 #ifndef F_NOBLES_H
 #define F_NOBLES_H
-
+using namespace std;
 class f_nobles{
 	private:
 		string nombre;
@@ -13,7 +13,7 @@ class f_nobles{
 		int ataque;
 		int defensa;
 	public:
-		f_nobles(string,string,lema,int,int,int);
+		f_nobles(string,string,string,int,int,int);
 		void setNombre(string);
 		string getNombre();
 		void setSimbolo(string);
@@ -24,7 +24,7 @@ class f_nobles{
 		int getCantidadPersonas();
 		void setAtaque(int);
 		int getAtaque();
-		void setDefensa();
+		void setDefensa(int);
 		int getDefensa();
 
 };

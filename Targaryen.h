@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "Dothraki.h"
+using namespace std;
 
 class Targaryen{
 	private:
@@ -8,7 +10,7 @@ class Targaryen{
 		string animal;
 		string emblema;
 		int dragones;
-		vector* <Dothraki*> ejercito;
+		vector <Dothraki*> ejercito;
 		int barcos;
 	public:
 		void setReina(string);
@@ -27,7 +29,7 @@ class Targaryen{
 		int getBarcos();
 		
 		void setEjercito(Dothraki*);
-		vector* getEjercito();
+		
 
 		
 

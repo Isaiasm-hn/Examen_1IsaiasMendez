@@ -37,7 +37,7 @@ void Dothraki::setAtaque (int x){
    ataque=x;
 }
    
-string Dothraki::getAtaque (){
+int Dothraki::getAtaque (){
    return ataque;
 }
 

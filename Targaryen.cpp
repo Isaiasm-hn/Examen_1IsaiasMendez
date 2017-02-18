@@ -1,15 +1,15 @@
 #include "Targaryen.h"
-
+#include <string>
 using namespace std;
 
 
-void Targaryen::setReina (String x){
+void Targaryen::setReina (string x){
 		reina=x;
 
 }
 
 string Targaryen::getReina (){
-	return=reina;
+	return reina;
 } 
 
 
@@ -19,7 +19,7 @@ void Targaryen::setAnimal (string x){
 }
 
 string Targaryen::getAnimal (){
-	return=animal;
+	return animal;
 } 
 
 
@@ -28,8 +28,8 @@ void Targaryen::setEmblema (string x){
 
 }
 
-void Targaryen::getEmblema (){
-	return=emblema ;
+string Targaryen::getEmblema (){
+	return emblema;
 } 
 
 
@@ -39,7 +39,7 @@ void Targaryen::setDragones (int x){
 }
 
 int Targaryen::getDragones (){
-	return=dragones ;
+	return dragones ;
 } 
 
 
@@ -49,15 +49,13 @@ void Targaryen::setBarcos (int x){
 }
 
 int Targaryen::getBarcos (){
-	return=barcos;
+	return barcos;
 } 
 
 void Targaryen::setEjercito(Dothraki* x){
 	ejercito.push_back(x);
 }
-vector* Targaryen::getEjercito(){
-	return ejercito;
-}
+
 
 
 

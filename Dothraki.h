@@ -2,7 +2,7 @@
 
 #ifndef DOTHRAKI_H
 #define DOTHRAKI_H
-
+using namespace std;
 class Dothraki{
 	private:
 		string nombre;
@@ -10,7 +10,7 @@ class Dothraki{
 		string caballo;
 		string color;
 		int ataque;
-		int def;
+		int defensa;
 	public:
   	   void setNombre(string);
       string getNombre();
@@ -22,7 +22,7 @@ class Dothraki{
       string getColor();
 	   void setAtaque(int);
       int getAtaque();
-      void setDefensa();
+      void setDefensa(int);
       int getDefensa();
 };
 

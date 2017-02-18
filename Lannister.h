@@ -3,14 +3,15 @@
 #include <vector>
 #include <string>
 
+using namespace std;
 #ifndef LANNISTER_H
 #define LANNISTER_H
 class Lannister{
 	private:
 		string nombre;
-		string emblema
+		string emblema;
 		string lema;
-		vector* <Guardia*> ejercito;
+		vector <Guardia*> ejercito;
 		int dinero;
 		int fuerza;
 		int integrantes;
@@ -25,7 +26,6 @@ class Lannister{
        string getLema();
 		
 		 void setEjercito(Guardia*);
-		 vector* getEjercito();
 		
 		 void setDinero(int);
 		 int getDinero();

@@ -4,11 +4,11 @@
 using namespace std;
 
 void Lannister::setNombre(string x){
-   boss=x;
+   nombre=x;
 }
 
 string Lannister::getNombre(){
-   return boss;
+   return nombre;
 }
 
 void Lannister::setEmblema(string x){
@@ -32,8 +32,8 @@ void Lannister::setDinero (int x){
 
 }
 
-void Lannister::getDinero (){
-	return=dinero;
+int Lannister::getDinero (){
+	return dinero;
 }
 
 void Lannister::setFuerza (int x){
@@ -41,8 +41,8 @@ void Lannister::setFuerza (int x){
 
 }
 
-void Lannister::getFuerza (){
-	return=fuerza;
+int Lannister::getFuerza (){
+	return fuerza;
 }
 
 void Lannister::setIntegrantes (int x){
@@ -50,7 +50,7 @@ void Lannister::setIntegrantes (int x){
 
 }
 
-void Lannister::getIntegrantes (){
-	return=integrantes;
+int Lannister::getIntegrantes (){
+	return integrantes;
 }
 
